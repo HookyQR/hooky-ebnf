@@ -11,6 +11,7 @@ os:
 
 install:
   - npm install
+  - npm install mocha -g
 
 script:
   - npm test --silent
