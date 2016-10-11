@@ -1,0 +1,24 @@
+{
+  "name": "hooky-ebnf",
+  "version": "0.0.1",
+  "description": "Parse extended bnf files to create lexical or parsing rules",
+  "main": "ebnf.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "repository": "HookyQR/hooky-ebnf",
+  "keywords": [
+    "bnf",
+    "ebnf",
+    "lex",
+    "parse",
+    "rule",
+    "structure"
+  ],
+  "author": "Hooky <HookyQR@qrmaster.co.nz> (https://github.com/HookyQR)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hookyqr/hooky-ebnf/issues"
+  },
+  "homepage": "https://github.com/hookyqr/hooky-ebnf#readme"
+}

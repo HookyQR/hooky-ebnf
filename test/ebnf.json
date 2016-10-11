@@ -1,0 +1,3020 @@
+[{
+  "kind": "syntax_rule",
+  "name": "letter",
+  "value": [{
+    "kind": "terminal_string",
+    "length": 3,
+    "value": "a",
+    "position": {
+      "offset": 125,
+      "line": 2,
+      "character": 9
+    }
+  }, {
+    "kind": "terminal_string",
+    "length": 3,
+    "value": "b",
+    "position": {
+      "offset": 131,
+      "line": 2,
+      "character": 15
+    }
+  }, {
+    "kind": "terminal_string",
+    "length": 3,
+    "value": "c",
+    "position": {
+      "offset": 137,
+      "line": 2,
+      "character": 21
+    }
+  }, {
+    "kind": "terminal_string",
+    "length": 3,
+    "value": "d",
+    "position": {
+      "offset": 143,
+      "line": 2,
+      "character": 27
+    }
+  }, {
+    "kind": "terminal_string",
+    "length": 3,
+    "value": "e",
+    "position": {
+      "offset": 149,
+      "line": 2,
+      "character": 33
+    }
+  }, {
+    "kind": "terminal_string",
+    "length": 3,
+    "value": "f",
+    "position": {
+      "offset": 155,
+      "line": 2,
+      "character": 39
+    }
+  }, {
+    "kind": "terminal_string",
+    "length": 3,
+    "value": "g",
+    "position": {
+      "offset": 161,
+      "line": 2,
+      "character": 45
+    }
+  }, {
+    "kind": "terminal_string",
+    "length": 3,
+    "value": "h",
+    "position": {
+      "offset": 167,
+      "line": 2,
+      "character": 51
+    }
+  }, {
+    "kind": "terminal_string",
+    "length": 3,
+    "value": "i",
+    "position": {
+      "offset": 173,
+      "line": 2,
+      "character": 57
+    }
+  }, {
+    "kind": "terminal_string",
+    "length": 3,
+    "value": "j",
+    "position": {
+      "offset": 179,
+      "line": 2,
+      "character": 63
+    }
+  }, {
+    "kind": "terminal_string",
+    "length": 3,
+    "value": "k",
+    "position": {
+      "offset": 189,
+      "line": 3,
+      "character": 6
+    }
+  }, {
+    "kind": "terminal_string",
+    "length": 3,
+    "value": "l",
+    "position": {
+      "offset": 195,
+      "line": 3,
+      "character": 12
+    }
+  }, {
+    "kind": "terminal_string",
+    "length": 3,
+    "value": "m",
+    "position": {
+      "offset": 201,
+      "line": 3,
+      "character": 18
+    }
+  }, {
+    "kind": "terminal_string",
+    "length": 3,
+    "value": "n",
+    "position": {
+      "offset": 207,
+      "line": 3,
+      "character": 24
+    }
+  }, {
+    "kind": "terminal_string",
+    "length": 3,
+    "value": "o",
+    "position": {
+      "offset": 213,
+      "line": 3,
+      "character": 30
+    }
+  }, {
+    "kind": "terminal_string",
+    "length": 3,
+    "value": "p",
+    "position": {
+      "offset": 219,
+      "line": 3,
+      "character": 36
+    }
+  }, {
+    "kind": "terminal_string",
+    "length": 3,
+    "value": "q",
+    "position": {
+      "offset": 225,
+      "line": 3,
+      "character": 42
+    }
+  }, {
+    "kind": "terminal_string",
+    "length": 3,
+    "value": "r",
+    "position": {
+      "offset": 231,
+      "line": 3,
+      "character": 48
+    }
+  }, {
+    "kind": "terminal_string",
+    "length": 3,
+    "value": "s",
+    "position": {
+      "offset": 237,
+      "line": 3,
+      "character": 54
+    }
+  }, {
+    "kind": "terminal_string",
+    "length": 3,
+    "value": "t",
+    "position": {
+      "offset": 243,
+      "line": 3,
+      "character": 60
+    }
+  }, {
+    "kind": "terminal_string",
+    "length": 3,
+    "value": "u",
+    "position": {
+      "offset": 253,
+      "line": 4,
+      "character": 6
+    }
+  }, {
+    "kind": "terminal_string",
+    "length": 3,
+    "value": "v",
+    "position": {
+      "offset": 259,
+      "line": 4,
+      "character": 12
+    }
+  }, {
+    "kind": "terminal_string",
+    "length": 3,
+    "value": "w",
+    "position": {
+      "offset": 265,
+      "line": 4,
+      "character": 18
+    }
+  }, {
+    "kind": "terminal_string",
+    "length": 3,
+    "value": "x",
+    "position": {
+      "offset": 271,
+      "line": 4,
+      "character": 24
+    }
+  }, {
+    "kind": "terminal_string",
+    "length": 3,
+    "value": "y",
+    "position": {
+      "offset": 277,
+      "line": 4,
+      "character": 30
+    }
+  }, {
+    "kind": "terminal_string",
+    "length": 3,
+    "value": "z",
+    "position": {
+      "offset": 283,
+      "line": 4,
+      "character": 36
+    }
+  }, {
+    "kind": "terminal_string",
+    "length": 3,
+    "value": "A",
+    "position": {
+      "offset": 289,
+      "line": 4,
+      "character": 42
+    }
+  }, {
+    "kind": "terminal_string",
+    "length": 3,
+    "value": "B",
+    "position": {
+      "offset": 295,
+      "line": 4,
+      "character": 48
+    }
+  }, {
+    "kind": "terminal_string",
+    "length": 3,
+    "value": "C",
+    "position": {
+      "offset": 301,
+      "line": 4,
+      "character": 54
+    }
+  }, {
+    "kind": "terminal_string",
+    "length": 3,
+    "value": "D",
+    "position": {
+      "offset": 307,
+      "line": 4,
+      "character": 60
+    }
+  }, {
+    "kind": "terminal_string",
+    "length": 3,
+    "value": "E",
+    "position": {
+      "offset": 317,
+      "line": 5,
+      "character": 6
+    }
+  }, {
+    "kind": "terminal_string",
+    "length": 3,
+    "value": "F",
+    "position": {
+      "offset": 323,
+      "line": 5,
+      "character": 12
+    }
+  }, {
+    "kind": "terminal_string",
+    "length": 3,
+    "value": "G",
+    "position": {
+      "offset": 329,
+      "line": 5,
+      "character": 18
+    }
+  }, {
+    "kind": "terminal_string",
+    "length": 3,
+    "value": "H",
+    "position": {
+      "offset": 335,
+      "line": 5,
+      "character": 24
+    }
+  }, {
+    "kind": "terminal_string",
+    "length": 3,
+    "value": "I",
+    "position": {
+      "offset": 341,
+      "line": 5,
+      "character": 30
+    }
+  }, {
+    "kind": "terminal_string",
+    "length": 3,
+    "value": "J",
+    "position": {
+      "offset": 347,
+      "line": 5,
+      "character": 36
+    }
+  }, {
+    "kind": "terminal_string",
+    "length": 3,
+    "value": "K",
+    "position": {
+      "offset": 353,
+      "line": 5,
+      "character": 42
+    }
+  }, {
+    "kind": "terminal_string",
+    "length": 3,
+    "value": "L",
+    "position": {
+      "offset": 359,
+      "line": 5,
+      "character": 48
+    }
+  }, {
+    "kind": "terminal_string",
+    "length": 3,
+    "value": "M",
+    "position": {
+      "offset": 365,
+      "line": 5,
+      "character": 54
+    }
+  }, {
+    "kind": "terminal_string",
+    "length": 3,
+    "value": "N",
+    "position": {
+      "offset": 371,
+      "line": 5,
+      "character": 60
+    }
+  }, {
+    "kind": "terminal_string",
+    "length": 3,
+    "value": "O",
+    "position": {
+      "offset": 381,
+      "line": 6,
+      "character": 6
+    }
+  }, {
+    "kind": "terminal_string",
+    "length": 3,
+    "value": "P",
+    "position": {
+      "offset": 387,
+      "line": 6,
+      "character": 12
+    }
+  }, {
+    "kind": "terminal_string",
+    "length": 3,
+    "value": "Q",
+    "position": {
+      "offset": 393,
+      "line": 6,
+      "character": 18
+    }
+  }, {
+    "kind": "terminal_string",
+    "length": 3,
+    "value": "R",
+    "position": {
+      "offset": 399,
+      "line": 6,
+      "character": 24
+    }
+  }, {
+    "kind": "terminal_string",
+    "length": 3,
+    "value": "S",
+    "position": {
+      "offset": 405,
+      "line": 6,
+      "character": 30
+    }
+  }, {
+    "kind": "terminal_string",
+    "length": 3,
+    "value": "T",
+    "position": {
+      "offset": 411,
+      "line": 6,
+      "character": 36
+    }
+  }, {
+    "kind": "terminal_string",
+    "length": 3,
+    "value": "U",
+    "position": {
+      "offset": 417,
+      "line": 6,
+      "character": 42
+    }
+  }, {
+    "kind": "terminal_string",
+    "length": 3,
+    "value": "V",
+    "position": {
+      "offset": 423,
+      "line": 6,
+      "character": 48
+    }
+  }, {
+    "kind": "terminal_string",
+    "length": 3,
+    "value": "W",
+    "position": {
+      "offset": 429,
+      "line": 6,
+      "character": 54
+    }
+  }, {
+    "kind": "terminal_string",
+    "length": 3,
+    "value": "X",
+    "position": {
+      "offset": 435,
+      "line": 6,
+      "character": 60
+    }
+  }, {
+    "kind": "terminal_string",
+    "length": 3,
+    "value": "Y",
+    "position": {
+      "offset": 445,
+      "line": 7,
+      "character": 6
+    }
+  }, {
+    "kind": "terminal_string",
+    "length": 3,
+    "value": "Z",
+    "position": {
+      "offset": 451,
+      "line": 7,
+      "character": 12
+    }
+  }],
+  "length": 340,
+  "position": {
+    "offset": 115,
+    "line": 1,
+    "character": 93
+  }
+}, {
+  "kind": "syntax_rule",
+  "name": "decimaldigit",
+  "value": [{
+    "kind": "terminal_string",
+    "length": 3,
+    "value": "0",
+    "position": {
+      "offset": 473,
+      "line": 9,
+      "character": 16
+    }
+  }, {
+    "kind": "terminal_string",
+    "length": 3,
+    "value": "1",
+    "position": {
+      "offset": 479,
+      "line": 9,
+      "character": 22
+    }
+  }, {
+    "kind": "terminal_string",
+    "length": 3,
+    "value": "2",
+    "position": {
+      "offset": 485,
+      "line": 9,
+      "character": 28
+    }
+  }, {
+    "kind": "terminal_string",
+    "length": 3,
+    "value": "3",
+    "position": {
+      "offset": 491,
+      "line": 9,
+      "character": 34
+    }
+  }, {
+    "kind": "terminal_string",
+    "length": 3,
+    "value": "4",
+    "position": {
+      "offset": 497,
+      "line": 9,
+      "character": 40
+    }
+  }, {
+    "kind": "terminal_string",
+    "length": 3,
+    "value": "5",
+    "position": {
+      "offset": 503,
+      "line": 9,
+      "character": 46
+    }
+  }, {
+    "kind": "terminal_string",
+    "length": 3,
+    "value": "6",
+    "position": {
+      "offset": 509,
+      "line": 9,
+      "character": 52
+    }
+  }, {
+    "kind": "terminal_string",
+    "length": 3,
+    "value": "7",
+    "position": {
+      "offset": 515,
+      "line": 9,
+      "character": 58
+    }
+  }, {
+    "kind": "terminal_string",
+    "length": 3,
+    "value": "8",
+    "position": {
+      "offset": 521,
+      "line": 9,
+      "character": 64
+    }
+  }, {
+    "kind": "terminal_string",
+    "length": 3,
+    "value": "9",
+    "position": {
+      "offset": 527,
+      "line": 9,
+      "character": 70
+    }
+  }],
+  "length": 74,
+  "position": {
+    "offset": 457,
+    "line": 9,
+    "character": 0
+  }
+}, {
+  "kind": "syntax_rule",
+  "name": "concatenatesymbol",
+  "value": [{
+    "kind": "terminal_string",
+    "length": 3,
+    "value": ",",
+    "position": {
+      "offset": 553,
+      "line": 10,
+      "character": 21
+    }
+  }],
+  "length": 25,
+  "position": {
+    "offset": 532,
+    "line": 10,
+    "character": 0
+  }
+}, {
+  "kind": "syntax_rule",
+  "name": "definingsymbol",
+  "value": [{
+    "kind": "terminal_string",
+    "length": 3,
+    "value": "=",
+    "position": {
+      "offset": 576,
+      "line": 11,
+      "character": 18
+    }
+  }],
+  "length": 22,
+  "position": {
+    "offset": 558,
+    "line": 11,
+    "character": 0
+  }
+}, {
+  "kind": "syntax_rule",
+  "name": "definitionseparatorsymbol",
+  "value": [{
+    "kind": "terminal_string",
+    "length": 3,
+    "value": "|",
+    "position": {
+      "offset": 611,
+      "line": 12,
+      "character": 30
+    }
+  }, {
+    "kind": "terminal_string",
+    "length": 3,
+    "value": "/",
+    "position": {
+      "offset": 617,
+      "line": 12,
+      "character": 36
+    }
+  }, {
+    "kind": "terminal_string",
+    "length": 3,
+    "value": "!",
+    "position": {
+      "offset": 623,
+      "line": 12,
+      "character": 42
+    }
+  }],
+  "length": 46,
+  "position": {
+    "offset": 581,
+    "line": 12,
+    "character": 0
+  }
+}, {
+  "kind": "syntax_rule",
+  "name": "endcommentsymbol",
+  "value": [{
+    "kind": "terminal_string",
+    "length": 4,
+    "value": "*)",
+    "position": {
+      "offset": 649,
+      "line": 13,
+      "character": 21
+    }
+  }],
+  "length": 26,
+  "position": {
+    "offset": 628,
+    "line": 13,
+    "character": 0
+  }
+}, {
+  "kind": "syntax_rule",
+  "name": "endgroupsymbol",
+  "value": [{
+    "kind": "terminal_string",
+    "length": 3,
+    "value": ")",
+    "position": {
+      "offset": 674,
+      "line": 14,
+      "character": 19
+    }
+  }],
+  "length": 23,
+  "position": {
+    "offset": 655,
+    "line": 14,
+    "character": 0
+  }
+}, {
+  "kind": "syntax_rule",
+  "name": "endoptionsymbol",
+  "value": [{
+    "kind": "terminal_string",
+    "length": 3,
+    "value": "]",
+    "position": {
+      "offset": 699,
+      "line": 15,
+      "character": 20
+    }
+  }, {
+    "kind": "terminal_string",
+    "length": 4,
+    "value": "/)",
+    "position": {
+      "offset": 705,
+      "line": 15,
+      "character": 26
+    }
+  }],
+  "length": 31,
+  "position": {
+    "offset": 679,
+    "line": 15,
+    "character": 0
+  }
+}, {
+  "kind": "syntax_rule",
+  "name": "endrepeatsymbol",
+  "value": [{
+    "kind": "terminal_string",
+    "length": 3,
+    "value": "}",
+    "position": {
+      "offset": 731,
+      "line": 16,
+      "character": 20
+    }
+  }, {
+    "kind": "terminal_string",
+    "length": 4,
+    "value": ":)",
+    "position": {
+      "offset": 737,
+      "line": 16,
+      "character": 26
+    }
+  }],
+  "length": 31,
+  "position": {
+    "offset": 711,
+    "line": 16,
+    "character": 0
+  }
+}, {
+  "kind": "syntax_rule",
+  "name": "exceptsymbol",
+  "value": [{
+    "kind": "terminal_string",
+    "length": 3,
+    "value": "-",
+    "position": {
+      "offset": 759,
+      "line": 17,
+      "character": 16
+    }
+  }],
+  "length": 20,
+  "position": {
+    "offset": 743,
+    "line": 17,
+    "character": 0
+  }
+}, {
+  "kind": "syntax_rule",
+  "name": "firstquotesymbol",
+  "value": [{
+    "kind": "terminal_string",
+    "length": 3,
+    "value": "'",
+    "position": {
+      "offset": 785,
+      "line": 18,
+      "character": 21
+    }
+  }],
+  "length": 25,
+  "position": {
+    "offset": 764,
+    "line": 18,
+    "character": 0
+  }
+}, {
+  "kind": "syntax_rule",
+  "name": "repetitionsymbol",
+  "value": [{
+    "kind": "terminal_string",
+    "length": 3,
+    "value": "*",
+    "position": {
+      "offset": 810,
+      "line": 19,
+      "character": 20
+    }
+  }],
+  "length": 24,
+  "position": {
+    "offset": 790,
+    "line": 19,
+    "character": 0
+  }
+}, {
+  "kind": "syntax_rule",
+  "name": "secondquotesymbol",
+  "value": [{
+    "kind": "terminal_string",
+    "length": 3,
+    "value": "\"",
+    "position": {
+      "offset": 837,
+      "line": 20,
+      "character": 22
+    }
+  }],
+  "length": 26,
+  "position": {
+    "offset": 815,
+    "line": 20,
+    "character": 0
+  }
+}, {
+  "kind": "syntax_rule",
+  "name": "specialsequencesymbol",
+  "value": [{
+    "kind": "terminal_string",
+    "length": 3,
+    "value": "?",
+    "position": {
+      "offset": 868,
+      "line": 21,
+      "character": 26
+    }
+  }],
+  "length": 30,
+  "position": {
+    "offset": 842,
+    "line": 21,
+    "character": 0
+  }
+}, {
+  "kind": "syntax_rule",
+  "name": "startcommentsymbol",
+  "value": [{
+    "kind": "terminal_string",
+    "length": 4,
+    "value": "(*",
+    "position": {
+      "offset": 896,
+      "line": 22,
+      "character": 23
+    }
+  }],
+  "length": 28,
+  "position": {
+    "offset": 873,
+    "line": 22,
+    "character": 0
+  }
+}, {
+  "kind": "syntax_rule",
+  "name": "startgroupsymbol",
+  "value": [{
+    "kind": "terminal_string",
+    "length": 3,
+    "value": "(",
+    "position": {
+      "offset": 923,
+      "line": 23,
+      "character": 21
+    }
+  }],
+  "length": 25,
+  "position": {
+    "offset": 902,
+    "line": 23,
+    "character": 0
+  }
+}, {
+  "kind": "syntax_rule",
+  "name": "startoptionsymbol",
+  "value": [{
+    "kind": "terminal_string",
+    "length": 3,
+    "value": "[",
+    "position": {
+      "offset": 950,
+      "line": 24,
+      "character": 22
+    }
+  }, {
+    "kind": "terminal_string",
+    "length": 4,
+    "value": "(/",
+    "position": {
+      "offset": 956,
+      "line": 24,
+      "character": 28
+    }
+  }],
+  "length": 33,
+  "position": {
+    "offset": 928,
+    "line": 24,
+    "character": 0
+  }
+}, {
+  "kind": "syntax_rule",
+  "name": "startrepeatsymbol",
+  "value": [{
+    "kind": "terminal_string",
+    "length": 3,
+    "value": "{",
+    "position": {
+      "offset": 984,
+      "line": 25,
+      "character": 22
+    }
+  }, {
+    "kind": "terminal_string",
+    "length": 4,
+    "value": "(:",
+    "position": {
+      "offset": 990,
+      "line": 25,
+      "character": 28
+    }
+  }],
+  "length": 33,
+  "position": {
+    "offset": 962,
+    "line": 25,
+    "character": 0
+  }
+}, {
+  "kind": "syntax_rule",
+  "name": "terminatorsymbol",
+  "value": [{
+    "kind": "terminal_string",
+    "length": 3,
+    "value": ";",
+    "position": {
+      "offset": 1016,
+      "line": 26,
+      "character": 20
+    }
+  }, {
+    "kind": "terminal_string",
+    "length": 3,
+    "value": ".",
+    "position": {
+      "offset": 1022,
+      "line": 26,
+      "character": 26
+    }
+  }],
+  "length": 30,
+  "position": {
+    "offset": 996,
+    "line": 26,
+    "character": 0
+  }
+}, {
+  "kind": "syntax_rule",
+  "name": "othercharacter",
+  "value": [{
+    "kind": "terminal_string",
+    "length": 3,
+    "value": " ",
+    "position": {
+      "offset": 1045,
+      "line": 27,
+      "character": 18
+    }
+  }, {
+    "kind": "terminal_string",
+    "length": 3,
+    "value": ":",
+    "position": {
+      "offset": 1051,
+      "line": 27,
+      "character": 24
+    }
+  }, {
+    "kind": "terminal_string",
+    "length": 3,
+    "value": "+",
+    "position": {
+      "offset": 1057,
+      "line": 27,
+      "character": 30
+    }
+  }, {
+    "kind": "terminal_string",
+    "length": 3,
+    "value": "_",
+    "position": {
+      "offset": 1063,
+      "line": 27,
+      "character": 36
+    }
+  }, {
+    "kind": "terminal_string",
+    "length": 3,
+    "value": "%",
+    "position": {
+      "offset": 1069,
+      "line": 27,
+      "character": 42
+    }
+  }, {
+    "kind": "terminal_string",
+    "length": 3,
+    "value": "@",
+    "position": {
+      "offset": 1075,
+      "line": 27,
+      "character": 48
+    }
+  }, {
+    "kind": "terminal_string",
+    "length": 3,
+    "value": "&",
+    "position": {
+      "offset": 1081,
+      "line": 27,
+      "character": 54
+    }
+  }, {
+    "kind": "terminal_string",
+    "length": 3,
+    "value": "#",
+    "position": {
+      "offset": 1087,
+      "line": 27,
+      "character": 60
+    }
+  }, {
+    "kind": "terminal_string",
+    "length": 3,
+    "value": "$",
+    "position": {
+      "offset": 1093,
+      "line": 27,
+      "character": 66
+    }
+  }, {
+    "kind": "terminal_string",
+    "length": 3,
+    "value": "<",
+    "position": {
+      "offset": 1099,
+      "line": 27,
+      "character": 72
+    }
+  }, {
+    "kind": "terminal_string",
+    "length": 3,
+    "value": ">",
+    "position": {
+      "offset": 1109,
+      "line": 28,
+      "character": 6
+    }
+  }, {
+    "kind": "terminal_string",
+    "length": 3,
+    "value": "\\",
+    "position": {
+      "offset": 1115,
+      "line": 28,
+      "character": 12
+    }
+  }, {
+    "kind": "terminal_string",
+    "length": 3,
+    "value": "^",
+    "position": {
+      "offset": 1121,
+      "line": 28,
+      "character": 18
+    }
+  }, {
+    "kind": "terminal_string",
+    "length": 3,
+    "value": "`",
+    "position": {
+      "offset": 1127,
+      "line": 28,
+      "character": 24
+    }
+  }, {
+    "kind": "terminal_string",
+    "length": 3,
+    "value": "~",
+    "position": {
+      "offset": 1133,
+      "line": 28,
+      "character": 30
+    }
+  }],
+  "length": 110,
+  "position": {
+    "offset": 1027,
+    "line": 27,
+    "character": 0
+  }
+}, {
+  "kind": "syntax_rule",
+  "name": "spacecharacter",
+  "value": [{
+    "kind": "terminal_string",
+    "length": 3,
+    "value": " ",
+    "position": {
+      "offset": 1156,
+      "line": 29,
+      "character": 18
+    }
+  }],
+  "length": 22,
+  "position": {
+    "offset": 1138,
+    "line": 29,
+    "character": 0
+  }
+}, {
+  "kind": "syntax_rule",
+  "name": "horizontaltabulationcharacter",
+  "value": [{
+    "kind": "special_sequence",
+    "length": 44,
+    "value": "? IS0 6429 character Horizontal Tabulation ?",
+    "position": {
+      "offset": 1195,
+      "line": 30,
+      "character": 34
+    }
+  }],
+  "length": 80,
+  "position": {
+    "offset": 1161,
+    "line": 30,
+    "character": 0
+  }
+}, {
+  "kind": "syntax_rule",
+  "name": "newline",
+  "value": [{
+    "kind": "single_definition",
+    "value": [{
+      "kind": "repeated_sequence",
+      "value": [{
+        "kind": "special_sequence",
+        "length": 38,
+        "value": "? IS0 6429 character Carriage Return ?",
+        "position": {
+          "offset": 1255,
+          "line": 31,
+          "character": 13
+        }
+      }],
+      "length": 42,
+      "position": {
+        "offset": 1253,
+        "line": 31,
+        "character": 11
+      }
+    }, {
+      "kind": "special_sequence",
+      "length": 32,
+      "value": "? IS0 6429 character Line Feed ?",
+      "position": {
+        "offset": 1297,
+        "line": 31,
+        "character": 55
+      }
+    }, {
+      "kind": "repeated_sequence",
+      "value": [{
+        "kind": "special_sequence",
+        "length": 38,
+        "value": "? IS0 6429 character Carriage Return ?",
+        "position": {
+          "offset": 1337,
+          "line": 32,
+          "character": 6
+        }
+      }],
+      "length": 42,
+      "position": {
+        "offset": 1335,
+        "line": 32,
+        "character": 4
+      }
+    }],
+    "length": 124,
+    "position": {
+      "offset": 1253,
+      "line": 31,
+      "character": 11
+    }
+  }],
+  "length": 136,
+  "position": {
+    "offset": 1242,
+    "line": 31,
+    "character": 0
+  }
+}, {
+  "kind": "syntax_rule",
+  "name": "verticaltabulationcharacter",
+  "value": [{
+    "kind": "special_sequence",
+    "length": 42,
+    "value": "? IS0 6429 character Vertical Tabulation ?",
+    "position": {
+      "offset": 1411,
+      "line": 33,
+      "character": 32
+    }
+  }],
+  "length": 76,
+  "position": {
+    "offset": 1379,
+    "line": 33,
+    "character": 0
+  }
+}, {
+  "kind": "syntax_rule",
+  "name": "formfeed",
+  "value": [{
+    "kind": "special_sequence",
+    "length": 32,
+    "value": "? IS0 6429 character Form Feed ?",
+    "position": {
+      "offset": 1468,
+      "line": 34,
+      "character": 12
+    }
+  }],
+  "length": 46,
+  "position": {
+    "offset": 1456,
+    "line": 34,
+    "character": 0
+  }
+}, {
+  "kind": "syntax_rule",
+  "name": "terminalcharacter",
+  "value": [{
+    "kind": "meta_identifier",
+    "length": 7,
+    "value": "letter",
+    "position": {
+      "offset": 1548,
+      "line": 37,
+      "character": 21
+    }
+  }, {
+    "kind": "meta_identifier",
+    "length": 14,
+    "value": "decimaldigit",
+    "position": {
+      "offset": 1557,
+      "line": 37,
+      "character": 30
+    }
+  }, {
+    "kind": "meta_identifier",
+    "length": 19,
+    "value": "concatenatesymbol",
+    "position": {
+      "offset": 1573,
+      "line": 37,
+      "character": 46
+    }
+  }, {
+    "kind": "meta_identifier",
+    "length": 20,
+    "value": "definingsymbol",
+    "position": {
+      "offset": 1594,
+      "line": 37,
+      "character": 67
+    }
+  }, {
+    "kind": "meta_identifier",
+    "length": 28,
+    "value": "definitionseparatorsymbol",
+    "position": {
+      "offset": 1616,
+      "line": 38,
+      "character": 6
+    }
+  }, {
+    "kind": "meta_identifier",
+    "length": 19,
+    "value": "endcommentsymbol",
+    "position": {
+      "offset": 1646,
+      "line": 38,
+      "character": 36
+    }
+  }, {
+    "kind": "meta_identifier",
+    "length": 21,
+    "value": "endgroupsymbol",
+    "position": {
+      "offset": 1667,
+      "line": 38,
+      "character": 57
+    }
+  }, {
+    "kind": "meta_identifier",
+    "length": 18,
+    "value": "endoptionsymbol",
+    "position": {
+      "offset": 1690,
+      "line": 39,
+      "character": 6
+    }
+  }, {
+    "kind": "meta_identifier",
+    "length": 18,
+    "value": "endrepeatsymbol",
+    "position": {
+      "offset": 1710,
+      "line": 39,
+      "character": 26
+    }
+  }, {
+    "kind": "meta_identifier",
+    "length": 14,
+    "value": "exceptsymbol",
+    "position": {
+      "offset": 1730,
+      "line": 39,
+      "character": 46
+    }
+  }, {
+    "kind": "meta_identifier",
+    "length": 23,
+    "value": "firstquotesymbol",
+    "position": {
+      "offset": 1746,
+      "line": 39,
+      "character": 62
+    }
+  }, {
+    "kind": "meta_identifier",
+    "length": 18,
+    "value": "repetitionsymbol",
+    "position": {
+      "offset": 1771,
+      "line": 40,
+      "character": 6
+    }
+  }, {
+    "kind": "meta_identifier",
+    "length": 20,
+    "value": "secondquotesymbol",
+    "position": {
+      "offset": 1791,
+      "line": 40,
+      "character": 26
+    }
+  }, {
+    "kind": "meta_identifier",
+    "length": 28,
+    "value": "specialsequencesymbol",
+    "position": {
+      "offset": 1813,
+      "line": 40,
+      "character": 48
+    }
+  }, {
+    "kind": "meta_identifier",
+    "length": 21,
+    "value": "startcommentsymbol",
+    "position": {
+      "offset": 1843,
+      "line": 41,
+      "character": 6
+    }
+  }, {
+    "kind": "meta_identifier",
+    "length": 19,
+    "value": "startgroupsymbol",
+    "position": {
+      "offset": 1866,
+      "line": 41,
+      "character": 29
+    }
+  }, {
+    "kind": "meta_identifier",
+    "length": 24,
+    "value": "startoptionsymbol",
+    "position": {
+      "offset": 1887,
+      "line": 41,
+      "character": 50
+    }
+  }, {
+    "kind": "meta_identifier",
+    "length": 20,
+    "value": "startrepeatsymbol",
+    "position": {
+      "offset": 1913,
+      "line": 42,
+      "character": 6
+    }
+  }, {
+    "kind": "meta_identifier",
+    "length": 18,
+    "value": "terminatorsymbol",
+    "position": {
+      "offset": 1935,
+      "line": 42,
+      "character": 28
+    }
+  }, {
+    "kind": "meta_identifier",
+    "length": 16,
+    "value": "othercharacter",
+    "position": {
+      "offset": 1955,
+      "line": 42,
+      "character": 48
+    }
+  }],
+  "length": 445,
+  "position": {
+    "offset": 1527,
+    "line": 37,
+    "character": 0
+  }
+}, {
+  "kind": "syntax_rule",
+  "name": "gapfreesymbol",
+  "value": [{
+    "kind": "syntactic_term",
+    "value": {
+      "kind": "meta_identifier",
+      "length": 19,
+      "value": "terminalcharacter",
+      "position": {
+        "offset": 1992,
+        "line": 44,
+        "character": 18
+      }
+    },
+    "except": {
+      "kind": "grouped_sequence",
+      "value": [{
+        "kind": "meta_identifier",
+        "length": 19,
+        "value": "firstquotesymbol",
+        "position": {
+          "offset": 2014,
+          "line": 44,
+          "character": 40
+        }
+      }, {
+        "kind": "meta_identifier",
+        "length": 19,
+        "value": "secondquotesymbol",
+        "position": {
+          "offset": 2035,
+          "line": 44,
+          "character": 61
+        }
+      }],
+      "length": 42,
+      "position": {
+        "offset": 2013,
+        "line": 44,
+        "character": 39
+      }
+    },
+    "length": 63,
+    "position": {
+      "offset": 1992,
+      "line": 44,
+      "character": 18
+    }
+  }, {
+    "kind": "meta_identifier",
+    "length": 15,
+    "value": "terminalstring",
+    "position": {
+      "offset": 2058,
+      "line": 44,
+      "character": 84
+    }
+  }],
+  "length": 100,
+  "position": {
+    "offset": 1974,
+    "line": 44,
+    "character": 0
+  }
+}, {
+  "kind": "syntax_rule",
+  "name": "terminalstring",
+  "value": [{
+    "kind": "single_definition",
+    "value": [{
+      "kind": "meta_identifier",
+      "length": 18,
+      "value": "firstquotesymbol",
+      "position": {
+        "offset": 2093,
+        "line": 45,
+        "character": 18
+      }
+    }, {
+      "kind": "meta_identifier",
+      "length": 24,
+      "value": "firstterminalcharacter",
+      "position": {
+        "offset": 2113,
+        "line": 45,
+        "character": 38
+      }
+    }, {
+      "kind": "repeated_sequence",
+      "value": [{
+        "kind": "meta_identifier",
+        "length": 24,
+        "value": "firstterminalcharacter",
+        "position": {
+          "offset": 2144,
+          "line": 46,
+          "character": 5
+        }
+      }],
+      "length": 26,
+      "position": {
+        "offset": 2143,
+        "line": 46,
+        "character": 4
+      }
+    }, {
+      "kind": "meta_identifier",
+      "length": 23,
+      "value": "firstquotesymbol",
+      "position": {
+        "offset": 2171,
+        "line": 46,
+        "character": 32
+      }
+    }],
+    "length": 101,
+    "position": {
+      "offset": 2093,
+      "line": 45,
+      "character": 18
+    }
+  }, {
+    "kind": "single_definition",
+    "value": [{
+      "kind": "meta_identifier",
+      "length": 19,
+      "value": "secondquotesymbol",
+      "position": {
+        "offset": 2196,
+        "line": 47,
+        "character": 6
+      }
+    }, {
+      "kind": "meta_identifier",
+      "length": 25,
+      "value": "secondterminalcharacter",
+      "position": {
+        "offset": 2217,
+        "line": 47,
+        "character": 27
+      }
+    }, {
+      "kind": "repeated_sequence",
+      "value": [{
+        "kind": "meta_identifier",
+        "length": 25,
+        "value": "secondterminalcharacter",
+        "position": {
+          "offset": 2249,
+          "line": 48,
+          "character": 5
+        }
+      }],
+      "length": 27,
+      "position": {
+        "offset": 2248,
+        "line": 48,
+        "character": 4
+      }
+    }, {
+      "kind": "meta_identifier",
+      "length": 19,
+      "value": "secondquotesymbol",
+      "position": {
+        "offset": 2277,
+        "line": 48,
+        "character": 33
+      }
+    }],
+    "length": 100,
+    "position": {
+      "offset": 2196,
+      "line": 47,
+      "character": 6
+    }
+  }],
+  "length": 222,
+  "position": {
+    "offset": 2075,
+    "line": 45,
+    "character": 0
+  }
+}, {
+  "kind": "syntax_rule",
+  "name": "firstterminalcharacter",
+  "value": [{
+    "kind": "syntactic_term",
+    "value": {
+      "kind": "meta_identifier",
+      "length": 19,
+      "value": "terminalcharacter",
+      "position": {
+        "offset": 2325,
+        "line": 49,
+        "character": 27
+      }
+    },
+    "except": {
+      "kind": "meta_identifier",
+      "length": 18,
+      "value": "firstquotesymbol",
+      "position": {
+        "offset": 2346,
+        "line": 49,
+        "character": 48
+      }
+    },
+    "length": 39,
+    "position": {
+      "offset": 2325,
+      "line": 49,
+      "character": 27
+    }
+  }],
+  "length": 67,
+  "position": {
+    "offset": 2298,
+    "line": 49,
+    "character": 0
+  }
+}, {
+  "kind": "syntax_rule",
+  "name": "secondterminalcharacter",
+  "value": [{
+    "kind": "syntactic_term",
+    "value": {
+      "kind": "meta_identifier",
+      "length": 19,
+      "value": "terminalcharacter",
+      "position": {
+        "offset": 2394,
+        "line": 50,
+        "character": 28
+      }
+    },
+    "except": {
+      "kind": "meta_identifier",
+      "length": 19,
+      "value": "secondquotesymbol",
+      "position": {
+        "offset": 2415,
+        "line": 50,
+        "character": 49
+      }
+    },
+    "length": 40,
+    "position": {
+      "offset": 2394,
+      "line": 50,
+      "character": 28
+    }
+  }],
+  "length": 69,
+  "position": {
+    "offset": 2366,
+    "line": 50,
+    "character": 0
+  }
+}, {
+  "kind": "syntax_rule",
+  "name": "gapseparator",
+  "value": [{
+    "kind": "meta_identifier",
+    "length": 16,
+    "value": "spacecharacter",
+    "position": {
+      "offset": 2452,
+      "line": 51,
+      "character": 16
+    }
+  }, {
+    "kind": "meta_identifier",
+    "length": 32,
+    "value": "horizontaltabulationcharacter",
+    "position": {
+      "offset": 2470,
+      "line": 51,
+      "character": 34
+    }
+  }, {
+    "kind": "meta_identifier",
+    "length": 13,
+    "value": "newline",
+    "position": {
+      "offset": 2504,
+      "line": 51,
+      "character": 68
+    }
+  }, {
+    "kind": "meta_identifier",
+    "length": 30,
+    "value": "verticaltabulationcharacter",
+    "position": {
+      "offset": 2519,
+      "line": 52,
+      "character": 6
+    }
+  }, {
+    "kind": "meta_identifier",
+    "length": 9,
+    "value": "formfeed",
+    "position": {
+      "offset": 2551,
+      "line": 52,
+      "character": 38
+    }
+  }],
+  "length": 125,
+  "position": {
+    "offset": 2436,
+    "line": 51,
+    "character": 0
+  }
+}, {
+  "kind": "syntax_rule",
+  "name": "syntax1",
+  "value": [{
+    "kind": "single_definition",
+    "value": [{
+      "kind": "repeated_sequence",
+      "value": [{
+        "kind": "meta_identifier",
+        "length": 13,
+        "value": "gapseparator",
+        "position": {
+          "offset": 2573,
+          "line": 53,
+          "character": 11
+        }
+      }],
+      "length": 15,
+      "position": {
+        "offset": 2572,
+        "line": 53,
+        "character": 10
+      }
+    }, {
+      "kind": "meta_identifier",
+      "length": 15,
+      "value": "gapfreesymbol",
+      "position": {
+        "offset": 2593,
+        "line": 54,
+        "character": 4
+      }
+    }, {
+      "kind": "repeated_sequence",
+      "value": [{
+        "kind": "meta_identifier",
+        "length": 13,
+        "value": "gapseparator",
+        "position": {
+          "offset": 2611,
+          "line": 54,
+          "character": 22
+        }
+      }],
+      "length": 15,
+      "position": {
+        "offset": 2610,
+        "line": 54,
+        "character": 21
+      }
+    }, {
+      "kind": "repeated_sequence",
+      "value": [{
+        "kind": "single_definition",
+        "value": [{
+          "kind": "meta_identifier",
+          "length": 15,
+          "value": "gapfreesymbol",
+          "position": {
+            "offset": 2632,
+            "line": 55,
+            "character": 5
+          }
+        }, {
+          "kind": "repeated_sequence",
+          "value": [{
+            "kind": "meta_identifier",
+            "length": 13,
+            "value": "gapseparator",
+            "position": {
+              "offset": 2650,
+              "line": 55,
+              "character": 23
+            }
+          }],
+          "length": 15,
+          "position": {
+            "offset": 2649,
+            "line": 55,
+            "character": 22
+          }
+        }],
+        "length": 32,
+        "position": {
+          "offset": 2632,
+          "line": 55,
+          "character": 5
+        }
+      }],
+      "length": 34,
+      "position": {
+        "offset": 2631,
+        "line": 55,
+        "character": 4
+      }
+    }],
+    "length": 94,
+    "position": {
+      "offset": 2572,
+      "line": 53,
+      "character": 10
+    }
+  }],
+  "length": 105,
+  "position": {
+    "offset": 2562,
+    "line": 53,
+    "character": 0
+  }
+}, {
+  "kind": "syntax_rule",
+  "name": "commentlesssymbol",
+  "value": [{
+    "kind": "syntactic_term",
+    "value": {
+      "kind": "meta_identifier",
+      "length": 19,
+      "value": "terminalcharacter",
+      "position": {
+        "offset": 2712,
+        "line": 58,
+        "character": 21
+      }
+    },
+    "except": {
+      "kind": "grouped_sequence",
+      "value": [{
+        "kind": "meta_identifier",
+        "length": 7,
+        "value": "letter",
+        "position": {
+          "offset": 2735,
+          "line": 58,
+          "character": 44
+        }
+      }, {
+        "kind": "meta_identifier",
+        "length": 14,
+        "value": "decimaldigit",
+        "position": {
+          "offset": 2744,
+          "line": 58,
+          "character": 53
+        }
+      }, {
+        "kind": "meta_identifier",
+        "length": 19,
+        "value": "firstquotesymbol",
+        "position": {
+          "offset": 2760,
+          "line": 58,
+          "character": 69
+        }
+      }, {
+        "kind": "meta_identifier",
+        "length": 20,
+        "value": "secondquotesymbol",
+        "position": {
+          "offset": 2781,
+          "line": 58,
+          "character": 90
+        }
+      }, {
+        "kind": "meta_identifier",
+        "length": 29,
+        "value": "startcommentsymbol",
+        "position": {
+          "offset": 2803,
+          "line": 58,
+          "character": 112
+        }
+      }, {
+        "kind": "meta_identifier",
+        "length": 19,
+        "value": "endcommentsymbol",
+        "position": {
+          "offset": 2834,
+          "line": 59,
+          "character": 10
+        }
+      }, {
+        "kind": "meta_identifier",
+        "length": 24,
+        "value": "specialsequencesymbol",
+        "position": {
+          "offset": 2855,
+          "line": 59,
+          "character": 31
+        }
+      }, {
+        "kind": "meta_identifier",
+        "length": 15,
+        "value": "othercharacter",
+        "position": {
+          "offset": 2881,
+          "line": 59,
+          "character": 57
+        }
+      }],
+      "length": 164,
+      "position": {
+        "offset": 2733,
+        "line": 58,
+        "character": 42
+      }
+    },
+    "length": 185,
+    "position": {
+      "offset": 2712,
+      "line": 58,
+      "character": 21
+    }
+  }, {
+    "kind": "meta_identifier",
+    "length": 16,
+    "value": "metaidentifier",
+    "position": {
+      "offset": 2904,
+      "line": 60,
+      "character": 6
+    }
+  }, {
+    "kind": "meta_identifier",
+    "length": 8,
+    "value": "integer",
+    "position": {
+      "offset": 2922,
+      "line": 60,
+      "character": 24
+    }
+  }, {
+    "kind": "meta_identifier",
+    "length": 16,
+    "value": "terminalstring",
+    "position": {
+      "offset": 2932,
+      "line": 60,
+      "character": 34
+    }
+  }, {
+    "kind": "meta_identifier",
+    "length": 16,
+    "value": "specialsequence",
+    "position": {
+      "offset": 2950,
+      "line": 60,
+      "character": 52
+    }
+  }],
+  "length": 276,
+  "position": {
+    "offset": 2691,
+    "line": 58,
+    "character": 0
+  }
+}, {
+  "kind": "syntax_rule",
+  "name": "integer",
+  "value": [{
+    "kind": "single_definition",
+    "value": [{
+      "kind": "meta_identifier",
+      "length": 13,
+      "value": "decimaldigit",
+      "position": {
+        "offset": 2978,
+        "line": 61,
+        "character": 10
+      }
+    }, {
+      "kind": "repeated_sequence",
+      "value": [{
+        "kind": "meta_identifier",
+        "length": 13,
+        "value": "decimaldigit",
+        "position": {
+          "offset": 2994,
+          "line": 61,
+          "character": 26
+        }
+      }],
+      "length": 15,
+      "position": {
+        "offset": 2993,
+        "line": 61,
+        "character": 25
+      }
+    }],
+    "length": 30,
+    "position": {
+      "offset": 2978,
+      "line": 61,
+      "character": 10
+    }
+  }],
+  "length": 41,
+  "position": {
+    "offset": 2968,
+    "line": 61,
+    "character": 0
+  }
+}, {
+  "kind": "syntax_rule",
+  "name": "metaidentifier",
+  "value": [{
+    "kind": "single_definition",
+    "value": [{
+      "kind": "meta_identifier",
+      "length": 6,
+      "value": "letter",
+      "position": {
+        "offset": 3028,
+        "line": 62,
+        "character": 18
+      }
+    }, {
+      "kind": "repeated_sequence",
+      "value": [{
+        "kind": "meta_identifier",
+        "length": 25,
+        "value": "metaidentifiercharacter",
+        "position": {
+          "offset": 3037,
+          "line": 62,
+          "character": 27
+        }
+      }],
+      "length": 27,
+      "position": {
+        "offset": 3036,
+        "line": 62,
+        "character": 26
+      }
+    }],
+    "length": 35,
+    "position": {
+      "offset": 3028,
+      "line": 62,
+      "character": 18
+    }
+  }],
+  "length": 54,
+  "position": {
+    "offset": 3010,
+    "line": 62,
+    "character": 0
+  }
+}, {
+  "kind": "syntax_rule",
+  "name": "metaidentifiercharacter",
+  "value": [{
+    "kind": "meta_identifier",
+    "length": 7,
+    "value": "letter",
+    "position": {
+      "offset": 3093,
+      "line": 63,
+      "character": 28
+    }
+  }, {
+    "kind": "meta_identifier",
+    "length": 13,
+    "value": "decimaldigit",
+    "position": {
+      "offset": 3102,
+      "line": 63,
+      "character": 37
+    }
+  }],
+  "length": 51,
+  "position": {
+    "offset": 3065,
+    "line": 63,
+    "character": 0
+  }
+}, {
+  "kind": "syntax_rule",
+  "name": "specialsequence",
+  "value": [{
+    "kind": "single_definition",
+    "value": [{
+      "kind": "meta_identifier",
+      "length": 23,
+      "value": "specialsequencesymbol",
+      "position": {
+        "offset": 3136,
+        "line": 64,
+        "character": 19
+      }
+    }, {
+      "kind": "repeated_sequence",
+      "value": [{
+        "kind": "meta_identifier",
+        "length": 26,
+        "value": "specialsequencecharacter",
+        "position": {
+          "offset": 3162,
+          "line": 64,
+          "character": 45
+        }
+      }],
+      "length": 28,
+      "position": {
+        "offset": 3161,
+        "line": 64,
+        "character": 44
+      }
+    }, {
+      "kind": "meta_identifier",
+      "length": 23,
+      "value": "specialsequencesymbol",
+      "position": {
+        "offset": 3191,
+        "line": 64,
+        "character": 74
+      }
+    }],
+    "length": 78,
+    "position": {
+      "offset": 3136,
+      "line": 64,
+      "character": 19
+    }
+  }],
+  "length": 98,
+  "position": {
+    "offset": 3117,
+    "line": 64,
+    "character": 0
+  }
+}, {
+  "kind": "syntax_rule",
+  "name": "specialsequencecharacter",
+  "value": [{
+    "kind": "syntactic_term",
+    "value": {
+      "kind": "meta_identifier",
+      "length": 19,
+      "value": "terminalcharacter",
+      "position": {
+        "offset": 3245,
+        "line": 65,
+        "character": 29
+      }
+    },
+    "except": {
+      "kind": "meta_identifier",
+      "length": 23,
+      "value": "specialsequencesymbol",
+      "position": {
+        "offset": 3266,
+        "line": 65,
+        "character": 50
+      }
+    },
+    "length": 44,
+    "position": {
+      "offset": 3245,
+      "line": 65,
+      "character": 29
+    }
+  }],
+  "length": 74,
+  "position": {
+    "offset": 3216,
+    "line": 65,
+    "character": 0
+  }
+}, {
+  "kind": "syntax_rule",
+  "name": "commentsymbol",
+  "value": [{
+    "kind": "meta_identifier",
+    "length": 26,
+    "value": "bracketedtextualcomment",
+    "position": {
+      "offset": 3308,
+      "line": 66,
+      "character": 17
+    }
+  }, {
+    "kind": "meta_identifier",
+    "length": 16,
+    "value": "othercharacter",
+    "position": {
+      "offset": 3336,
+      "line": 66,
+      "character": 45
+    }
+  }, {
+    "kind": "meta_identifier",
+    "length": 18,
+    "value": "commentlesssymbol",
+    "position": {
+      "offset": 3354,
+      "line": 66,
+      "character": 63
+    }
+  }],
+  "length": 82,
+  "position": {
+    "offset": 3291,
+    "line": 66,
+    "character": 0
+  }
+}, {
+  "kind": "syntax_rule",
+  "name": "bracketedtextualcomment",
+  "value": [{
+    "kind": "single_definition",
+    "value": [{
+      "kind": "meta_identifier",
+      "length": 20,
+      "value": "startcommentsymbol",
+      "position": {
+        "offset": 3402,
+        "line": 67,
+        "character": 28
+      }
+    }, {
+      "kind": "repeated_sequence",
+      "value": [{
+        "kind": "meta_identifier",
+        "length": 14,
+        "value": "commentsymbol",
+        "position": {
+          "offset": 3425,
+          "line": 67,
+          "character": 51
+        }
+      }],
+      "length": 16,
+      "position": {
+        "offset": 3424,
+        "line": 67,
+        "character": 50
+      }
+    }, {
+      "kind": "meta_identifier",
+      "length": 18,
+      "value": "endcommentsymbol",
+      "position": {
+        "offset": 3442,
+        "line": 67,
+        "character": 68
+      }
+    }],
+    "length": 58,
+    "position": {
+      "offset": 3402,
+      "line": 67,
+      "character": 28
+    }
+  }],
+  "length": 87,
+  "position": {
+    "offset": 3374,
+    "line": 67,
+    "character": 0
+  }
+}, {
+  "kind": "syntax_rule",
+  "name": "syntax2",
+  "value": [{
+    "kind": "single_definition",
+    "value": [{
+      "kind": "repeated_sequence",
+      "value": [{
+        "kind": "meta_identifier",
+        "length": 25,
+        "value": "bracketedtextualcomment",
+        "position": {
+          "offset": 3473,
+          "line": 68,
+          "character": 11
+        }
+      }],
+      "length": 27,
+      "position": {
+        "offset": 3472,
+        "line": 68,
+        "character": 10
+      }
+    }, {
+      "kind": "meta_identifier",
+      "length": 18,
+      "value": "commentlesssymbol",
+      "position": {
+        "offset": 3501,
+        "line": 68,
+        "character": 39
+      }
+    }, {
+      "kind": "repeated_sequence",
+      "value": [{
+        "kind": "meta_identifier",
+        "length": 25,
+        "value": "bracketedtextualcomment",
+        "position": {
+          "offset": 3522,
+          "line": 68,
+          "character": 60
+        }
+      }],
+      "length": 27,
+      "position": {
+        "offset": 3521,
+        "line": 68,
+        "character": 59
+      }
+    }, {
+      "kind": "repeated_sequence",
+      "value": [{
+        "kind": "single_definition",
+        "value": [{
+          "kind": "meta_identifier",
+          "length": 18,
+          "value": "commentlesssymbol",
+          "position": {
+            "offset": 3555,
+            "line": 69,
+            "character": 5
+          }
+        }, {
+          "kind": "repeated_sequence",
+          "value": [{
+            "kind": "meta_identifier",
+            "length": 25,
+            "value": "bracketedtextualcomment",
+            "position": {
+              "offset": 3576,
+              "line": 69,
+              "character": 26
+            }
+          }],
+          "length": 27,
+          "position": {
+            "offset": 3575,
+            "line": 69,
+            "character": 25
+          }
+        }],
+        "length": 47,
+        "position": {
+          "offset": 3555,
+          "line": 69,
+          "character": 5
+        }
+      }],
+      "length": 49,
+      "position": {
+        "offset": 3554,
+        "line": 69,
+        "character": 4
+      }
+    }],
+    "length": 131,
+    "position": {
+      "offset": 3472,
+      "line": 68,
+      "character": 10
+    }
+  }],
+  "length": 142,
+  "position": {
+    "offset": 3462,
+    "line": 68,
+    "character": 0
+  }
+}, {
+  "kind": "syntax_rule",
+  "name": "syntax",
+  "value": [{
+    "kind": "single_definition",
+    "value": [{
+      "kind": "meta_identifier",
+      "length": 11,
+      "value": "syntaxrule",
+      "position": {
+        "offset": 3637,
+        "line": 72,
+        "character": 9
+      }
+    }, {
+      "kind": "repeated_sequence",
+      "value": [{
+        "kind": "meta_identifier",
+        "length": 11,
+        "value": "syntaxrule",
+        "position": {
+          "offset": 3651,
+          "line": 72,
+          "character": 23
+        }
+      }],
+      "length": 13,
+      "position": {
+        "offset": 3650,
+        "line": 72,
+        "character": 22
+      }
+    }],
+    "length": 26,
+    "position": {
+      "offset": 3637,
+      "line": 72,
+      "character": 9
+    }
+  }],
+  "length": 36,
+  "position": {
+    "offset": 3628,
+    "line": 72,
+    "character": 0
+  }
+}, {
+  "kind": "syntax_rule",
+  "name": "syntaxrule",
+  "value": [{
+    "kind": "single_definition",
+    "value": [{
+      "kind": "meta_identifier",
+      "length": 15,
+      "value": "metaidentifier",
+      "position": {
+        "offset": 3679,
+        "line": 73,
+        "character": 14
+      }
+    }, {
+      "kind": "meta_identifier",
+      "length": 15,
+      "value": "definingsymbol",
+      "position": {
+        "offset": 3696,
+        "line": 73,
+        "character": 31
+      }
+    }, {
+      "kind": "meta_identifier",
+      "length": 16,
+      "value": "definitionslist",
+      "position": {
+        "offset": 3713,
+        "line": 73,
+        "character": 48
+      }
+    }, {
+      "kind": "meta_identifier",
+      "length": 17,
+      "value": "terminatorsymbol",
+      "position": {
+        "offset": 3731,
+        "line": 73,
+        "character": 66
+      }
+    }],
+    "length": 69,
+    "position": {
+      "offset": 3679,
+      "line": 73,
+      "character": 14
+    }
+  }],
+  "length": 84,
+  "position": {
+    "offset": 3665,
+    "line": 73,
+    "character": 0
+  }
+}, {
+  "kind": "syntax_rule",
+  "name": "definitionslist",
+  "value": [{
+    "kind": "single_definition",
+    "value": [{
+      "kind": "meta_identifier",
+      "length": 17,
+      "value": "singledefinition",
+      "position": {
+        "offset": 3769,
+        "line": 74,
+        "character": 19
+      }
+    }, {
+      "kind": "repeated_sequence",
+      "value": [{
+        "kind": "single_definition",
+        "value": [{
+          "kind": "meta_identifier",
+          "length": 27,
+          "value": "definitionseparatorsymbol",
+          "position": {
+            "offset": 3789,
+            "line": 74,
+            "character": 39
+          }
+        }, {
+          "kind": "meta_identifier",
+          "length": 17,
+          "value": "singledefinition",
+          "position": {
+            "offset": 3818,
+            "line": 74,
+            "character": 68
+          }
+        }],
+        "length": 46,
+        "position": {
+          "offset": 3789,
+          "line": 74,
+          "character": 39
+        }
+      }],
+      "length": 48,
+      "position": {
+        "offset": 3788,
+        "line": 74,
+        "character": 38
+      }
+    }],
+    "length": 67,
+    "position": {
+      "offset": 3769,
+      "line": 74,
+      "character": 19
+    }
+  }],
+  "length": 87,
+  "position": {
+    "offset": 3750,
+    "line": 74,
+    "character": 0
+  }
+}, {
+  "kind": "syntax_rule",
+  "name": "singledefinition",
+  "value": [{
+    "kind": "single_definition",
+    "value": [{
+      "kind": "meta_identifier",
+      "length": 14,
+      "value": "syntacticterm",
+      "position": {
+        "offset": 3858,
+        "line": 75,
+        "character": 20
+      }
+    }, {
+      "kind": "repeated_sequence",
+      "value": [{
+        "kind": "single_definition",
+        "value": [{
+          "kind": "meta_identifier",
+          "length": 18,
+          "value": "concatenatesymbol",
+          "position": {
+            "offset": 3874,
+            "line": 75,
+            "character": 36
+          }
+        }, {
+          "kind": "meta_identifier",
+          "length": 14,
+          "value": "syntacticterm",
+          "position": {
+            "offset": 3894,
+            "line": 75,
+            "character": 56
+          }
+        }],
+        "length": 34,
+        "position": {
+          "offset": 3874,
+          "line": 75,
+          "character": 36
+        }
+      }],
+      "length": 36,
+      "position": {
+        "offset": 3873,
+        "line": 75,
+        "character": 35
+      }
+    }],
+    "length": 51,
+    "position": {
+      "offset": 3858,
+      "line": 75,
+      "character": 20
+    }
+  }],
+  "length": 72,
+  "position": {
+    "offset": 3838,
+    "line": 75,
+    "character": 0
+  }
+}, {
+  "kind": "syntax_rule",
+  "name": "syntacticterm",
+  "value": [{
+    "kind": "single_definition",
+    "value": [{
+      "kind": "meta_identifier",
+      "length": 16,
+      "value": "syntacticfactor",
+      "position": {
+        "offset": 3928,
+        "line": 76,
+        "character": 17
+      }
+    }, {
+      "kind": "optional_sequence",
+      "value": [{
+        "kind": "single_definition",
+        "value": [{
+          "kind": "meta_identifier",
+          "length": 13,
+          "value": "exceptsymbol",
+          "position": {
+            "offset": 3947,
+            "line": 76,
+            "character": 36
+          }
+        }, {
+          "kind": "meta_identifier",
+          "length": 19,
+          "value": "syntacticexception",
+          "position": {
+            "offset": 3962,
+            "line": 76,
+            "character": 51
+          }
+        }],
+        "length": 34,
+        "position": {
+          "offset": 3947,
+          "line": 76,
+          "character": 36
+        }
+      }],
+      "length": 36,
+      "position": {
+        "offset": 3946,
+        "line": 76,
+        "character": 35
+      }
+    }],
+    "length": 54,
+    "position": {
+      "offset": 3928,
+      "line": 76,
+      "character": 17
+    }
+  }],
+  "length": 72,
+  "position": {
+    "offset": 3911,
+    "line": 76,
+    "character": 0
+  }
+}, {
+  "kind": "syntax_rule",
+  "name": "syntacticexception",
+  "value": [{
+    "kind": "special_sequence",
+    "length": 98,
+    "value": "? a syntactic-factor that could be replaced by a syntactic-factor containing no meta-identifiers ?",
+    "position": {
+      "offset": 4006,
+      "line": 77,
+      "character": 22
+    }
+  }],
+  "length": 122,
+  "position": {
+    "offset": 3984,
+    "line": 77,
+    "character": 0
+  }
+}, {
+  "kind": "syntax_rule",
+  "name": "syntacticfactor",
+  "value": [{
+    "kind": "single_definition",
+    "value": [{
+      "kind": "optional_sequence",
+      "value": [{
+        "kind": "single_definition",
+        "value": [{
+          "kind": "meta_identifier",
+          "length": 7,
+          "value": "integer",
+          "position": {
+            "offset": 4127,
+            "line": 78,
+            "character": 20
+          }
+        }, {
+          "kind": "meta_identifier",
+          "length": 17,
+          "value": "repetitionsymbol",
+          "position": {
+            "offset": 4136,
+            "line": 78,
+            "character": 29
+          }
+        }],
+        "length": 26,
+        "position": {
+          "offset": 4127,
+          "line": 78,
+          "character": 20
+        }
+      }],
+      "length": 28,
+      "position": {
+        "offset": 4126,
+        "line": 78,
+        "character": 19
+      }
+    }, {
+      "kind": "meta_identifier",
+      "length": 17,
+      "value": "syntacticprimary",
+      "position": {
+        "offset": 4156,
+        "line": 78,
+        "character": 49
+      }
+    }],
+    "length": 47,
+    "position": {
+      "offset": 4126,
+      "line": 78,
+      "character": 19
+    }
+  }],
+  "length": 67,
+  "position": {
+    "offset": 4107,
+    "line": 78,
+    "character": 0
+  }
+}, {
+  "kind": "syntax_rule",
+  "name": "syntacticprimary",
+  "value": [{
+    "kind": "meta_identifier",
+    "length": 18,
+    "value": "optionalsequence",
+    "position": {
+      "offset": 4195,
+      "line": 79,
+      "character": 20
+    }
+  }, {
+    "kind": "meta_identifier",
+    "length": 18,
+    "value": "repeatedsequence",
+    "position": {
+      "offset": 4215,
+      "line": 79,
+      "character": 40
+    }
+  }, {
+    "kind": "meta_identifier",
+    "length": 17,
+    "value": "groupedsequence",
+    "position": {
+      "offset": 4235,
+      "line": 79,
+      "character": 60
+    }
+  }, {
+    "kind": "meta_identifier",
+    "length": 20,
+    "value": "metaidentifier",
+    "position": {
+      "offset": 4254,
+      "line": 79,
+      "character": 79
+    }
+  }, {
+    "kind": "meta_identifier",
+    "length": 16,
+    "value": "terminalstring",
+    "position": {
+      "offset": 4276,
+      "line": 80,
+      "character": 6
+    }
+  }, {
+    "kind": "meta_identifier",
+    "length": 17,
+    "value": "specialsequence",
+    "position": {
+      "offset": 4294,
+      "line": 80,
+      "character": 24
+    }
+  }, {
+    "kind": "meta_identifier",
+    "length": 14,
+    "value": "emptysequence",
+    "position": {
+      "offset": 4313,
+      "line": 80,
+      "character": 43
+    }
+  }],
+  "length": 153,
+  "position": {
+    "offset": 4175,
+    "line": 79,
+    "character": 0
+  }
+}, {
+  "kind": "syntax_rule",
+  "name": "optionalsequence",
+  "value": [{
+    "kind": "single_definition",
+    "value": [{
+      "kind": "meta_identifier",
+      "length": 19,
+      "value": "startoptionsymbol",
+      "position": {
+        "offset": 4349,
+        "line": 81,
+        "character": 20
+      }
+    }, {
+      "kind": "meta_identifier",
+      "length": 16,
+      "value": "definitionslist",
+      "position": {
+        "offset": 4370,
+        "line": 81,
+        "character": 41
+      }
+    }, {
+      "kind": "meta_identifier",
+      "length": 17,
+      "value": "endoptionsymbol",
+      "position": {
+        "offset": 4388,
+        "line": 81,
+        "character": 59
+      }
+    }],
+    "length": 56,
+    "position": {
+      "offset": 4349,
+      "line": 81,
+      "character": 20
+    }
+  }],
+  "length": 77,
+  "position": {
+    "offset": 4329,
+    "line": 81,
+    "character": 0
+  }
+}, {
+  "kind": "syntax_rule",
+  "name": "repeatedsequence",
+  "value": [{
+    "kind": "single_definition",
+    "value": [{
+      "kind": "meta_identifier",
+      "length": 19,
+      "value": "startrepeatsymbol",
+      "position": {
+        "offset": 4427,
+        "line": 82,
+        "character": 20
+      }
+    }, {
+      "kind": "meta_identifier",
+      "length": 16,
+      "value": "definitionslist",
+      "position": {
+        "offset": 4448,
+        "line": 82,
+        "character": 41
+      }
+    }, {
+      "kind": "meta_identifier",
+      "length": 17,
+      "value": "endrepeatsymbol",
+      "position": {
+        "offset": 4466,
+        "line": 82,
+        "character": 59
+      }
+    }],
+    "length": 56,
+    "position": {
+      "offset": 4427,
+      "line": 82,
+      "character": 20
+    }
+  }],
+  "length": 77,
+  "position": {
+    "offset": 4407,
+    "line": 82,
+    "character": 0
+  }
+}, {
+  "kind": "syntax_rule",
+  "name": "groupedsequence",
+  "value": [{
+    "kind": "single_definition",
+    "value": [{
+      "kind": "meta_identifier",
+      "length": 18,
+      "value": "startgroupsymbol",
+      "position": {
+        "offset": 4504,
+        "line": 83,
+        "character": 19
+      }
+    }, {
+      "kind": "meta_identifier",
+      "length": 16,
+      "value": "definitionslist",
+      "position": {
+        "offset": 4524,
+        "line": 83,
+        "character": 39
+      }
+    }, {
+      "kind": "meta_identifier",
+      "length": 16,
+      "value": "endgroupsymbol",
+      "position": {
+        "offset": 4542,
+        "line": 83,
+        "character": 57
+      }
+    }],
+    "length": 54,
+    "position": {
+      "offset": 4504,
+      "line": 83,
+      "character": 19
+    }
+  }],
+  "length": 74,
+  "position": {
+    "offset": 4485,
+    "line": 83,
+    "character": 0
+  }
+}, {
+  "kind": "syntax_rule",
+  "name": "emptysequence",
+  "value": [],
+  "length": 18,
+  "position": {
+    "offset": 4560,
+    "line": 84,
+    "character": 0
+  }
+}]
