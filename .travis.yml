@@ -1,0 +1,14 @@
+language: node_js
+node_js:
+  - "6"
+  - "5"
+  - "4"
+os:
+  - osx
+  - linux
+
+install:
+  - npm install
+
+script:
+  - npm test --silent

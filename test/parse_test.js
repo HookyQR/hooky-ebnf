@@ -10,7 +10,6 @@ describe("parser", function() {
     let d = fs.readFileSync(__dirname + '/ebnf.ebnf');
     it('does not raise an error', function() {
       expect(function() { result = new EBNF(d); }).not.to.throw();
-      console.log(require('util').inspect(result.syntax, { depth: Infinity }));
       expect(result.syntax).to.have.length(53);
       expect(result.comments).to.have.length(5);
     });

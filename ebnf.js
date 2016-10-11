@@ -45,7 +45,7 @@ class EBNF {
     return {
       kind: 'terminal_string',
       length: this.data.step.offset - position.offset,
-      value: this.data.slice(position.offset + 1, this.data.offset - 1).toString(),
+      value: this.data.slice(position.offset + 1, this.data.offset - 1),
       position
     };
   }
@@ -76,7 +76,7 @@ class EBNF {
   _metaIdentifier(data) {
     let position, start, c;
     let final = [];
-    this._collectWSAndComments(data); // skip whitespace
+    this._collectWSAndComments(data);
     position = data.position;
     c = data.current;
     //first char must be a letter
@@ -88,11 +88,11 @@ class EBNF {
         ((0x30 <= c && 0x39 >= c) || (0x41 <= c && 0x5a >= c) || (0x61 <= c && 0x7a >= c))) {}
       // will always be at least one, because of the double while checks
       final.push(data.slice(start, data.offset));
-      this._collectWSAndComments(data); // skip whitespace
+      this._collectWSAndComments(data);
       c = data.current;
     }
     if (!final.length) return data.returnTo(position);
-    return { kind: 'meta_identifier', length: data.offset - position.offset, value: Buffer.concat(final).toString(), position };
+    return { kind: 'meta_identifier', length: data.offset - position.offset, value: Buffer.concat(final), position };
   }
 
   // special sequence symbol, {special sequence character}, special sequence symbol;
@@ -144,7 +144,7 @@ class EBNF {
 
   _syntaxRule(data) {
     let position;
-    this._collectWSAndComments(data); // skip whitespace
+    this._collectWSAndComments(data);
     position = data.position;
     const metaId = this._metaIdentifier(data);
     if (!metaId) throw new EBNFSyntaxError('No Meta-identifier found', position, data.position);
@@ -157,16 +157,16 @@ class EBNF {
 
   // single definition, { definition separator symbol, single definition };
   _definitionsList(data) {
-    this._collectWSAndComments(data); // skip whitespace
+    this._collectWSAndComments(data);
     const list = [];
     let definition;
     let c;
     while (!data.complete() && (definition = this._singleDefinition(data))) {
       list.push(definition);
-      this._collectWSAndComments(data); // skip whitespace
+      this._collectWSAndComments(data);
       c = data.current;
       if (c !== 0x7c && c !== 0x2f && c !== 0x21) break;
-      this._collectWSAndComments(data.step); // skip whitespace
+      this._collectWSAndComments(data.step);
     }
     return list;
 
@@ -179,9 +179,9 @@ class EBNF {
       let term;
       while ((term = this._syntacticTerm(data))) {
         list.push(term);
-        this._collectWSAndComments(data); // skip whitespace
+        this._collectWSAndComments(data);
         if (data.current !== 0x2c) break;
-        this._collectWSAndComments(data.step); // skip whitespace
+        this._collectWSAndComments(data.step);
       }
       if (list.length === 0) return null;
       if (list.length === 1) return list[0];
