@@ -6,6 +6,10 @@
   "scripts": {
     "test": "mocha"
   },
+  "devDependencies": {
+    "mocha": "^3.1.2",
+    "chai": "^3.5.0"
+  },
   "repository": "HookyQR/hooky-ebnf",
   "keywords": [
     "bnf",
