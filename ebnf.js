@@ -5,10 +5,14 @@ const Data = require('./data');
 function trim(dataBuffer) {
   let p = 0,
     c, start = 0;
-  while ((c = dataBuffer[p]) && (0x20 === c || (0x0a <= c && 0x0d >= c))) { p++; }
+  while ((c = dataBuffer[p]) && (0x20 === c || (0x0a <= c && 0x0d >= c))) {
+    p++;
+  }
   start = p;
   p = dataBuffer.length - 1;
-  while ((p > start) && (c = dataBuffer[p]) && (0x20 === c || (0x0a <= c && 0x0d >= c))) { p--; }
+  while ((p > start) && (c = dataBuffer[p]) && (0x20 === c || (0x0a <= c && 0x0d >= c))) {
+    p--;
+  }
   if (p < start) return Buffer.from([]);
   return dataBuffer.slice(start, p + 1);
 }
@@ -92,7 +96,12 @@ class EBNF {
       c = data.current;
     }
     if (!final.length) return data.returnTo(position);
-    return { kind: 'meta_identifier', length: data.offset - position.offset, value: Buffer.concat(final), position };
+    return {
+      kind: 'meta_identifier',
+      length: data.offset - position.offset,
+      value: Buffer.concat(final),
+      position
+    };
   }
 
   // special sequence symbol, {special sequence character}, special sequence symbol;
@@ -105,7 +114,7 @@ class EBNF {
     return {
       kind: 'special_sequence',
       length: data.step.offset - position.offset,
-      value: trim(data.slice(position.offset, data.offset)).toString(),
+      value: trim(data.slice(position.offset + 1, data.offset - 1)).toString(),
       position
     };
   }
@@ -152,7 +161,13 @@ class EBNF {
     const definitions = this._definitionsList(data.step);
     // terminator symbol;
     if (data.current !== 0x3b) throw new EBNFSyntaxError(`No terminator for "${metaId.value.toString()}"`, position, data.position);
-    return { kind: 'syntax_rule', name: metaId.value.toString(), value: definitions, length: data.step.offset - position.offset, position };
+    return {
+      kind: 'syntax_rule',
+      name: metaId.value.toString(),
+      value: definitions,
+      length: data.step.offset - position.offset,
+      position
+    };
   }
 
   // single definition, { definition separator symbol, single definition };
@@ -185,7 +200,12 @@ class EBNF {
       }
       if (list.length === 0) return null;
       if (list.length === 1) return list[0];
-      return { kind: 'single_definition', value: list, length: data.offset - position.offset, position };
+      return {
+        kind: 'single_definition',
+        value: list,
+        length: data.offset - position.offset,
+        position
+      };
     }
     // syntactic factor, [except symbol, syntactic exception];
   _syntacticTerm(data) {
@@ -197,7 +217,13 @@ class EBNF {
       if (data.current !== 0x2d) return term;
       this._collectWSAndComments(data.step);
       except = this._syntacticFactor(data); // must be non looping - can be empty
-      return { kind: 'syntactic_term', value: term, except, length: data.offset - position.offset, position };
+      return {
+        kind: 'syntactic_term',
+        value: term,
+        except,
+        length: data.offset - position.offset,
+        position
+      };
     }
     // [integer, repetition symbol], syntactic primary;
   _syntacticFactor(data) {
@@ -215,7 +241,13 @@ class EBNF {
         this._collectWSAndComments(data.step);
       }
       c = this._syntacticPrimary(data);
-      if (v && c) return { kind: 'syntactic_factor', count: v, value: c, length: data.offset - position.offset, position };
+      if (v && c) return {
+        kind: 'syntactic_factor',
+        count: v,
+        value: c,
+        length: data.offset - position.offset,
+        position
+      };
       else return c;
     }
     // optional sequence | repeated sequence | grouped sequence | meta identifier | terminal string | special sequence | empty sequence;
@@ -239,7 +271,12 @@ class EBNF {
         // unclosed option
         return;
       }
-      return { kind: 'optional_sequence', value, length: data.step.offset - position.offset, position };
+      return {
+        kind: 'optional_sequence',
+        value,
+        length: data.step.offset - position.offset,
+        position
+      };
     }
     // start repeat symbol, definitions list, end repeat symbol;
   _repeatedSequence(data) {
@@ -257,7 +294,12 @@ class EBNF {
         // unclosed repeat
         return;
       }
-      return { kind: 'repeated_sequence', value, length: data.step.offset - position.offset, position };
+      return {
+        kind: 'repeated_sequence',
+        value,
+        length: data.step.offset - position.offset,
+        position
+      };
     }
     // start group symbol, definitions list, end group symbol;
   _groupedSequence(data) {
@@ -269,7 +311,12 @@ class EBNF {
       // unclosed group
       return;
     }
-    return { kind: 'grouped_sequence', value, length: data.step.offset - position.offset, position };
+    return {
+      kind: 'grouped_sequence',
+      value,
+      length: data.step.offset - position.offset,
+      position
+    };
   }
 }
 

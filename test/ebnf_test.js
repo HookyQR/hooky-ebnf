@@ -4,7 +4,7 @@ const expect = require('chai').expect;
 const fs = require('fs');
 const EBNF = require('../ebnf');
 
-describe("parser", function() {
+describe("ebnf parser", function() {
   let result;
   context('parsing the ebnf for ebnf', function() {
     let d = fs.readFileSync(__dirname + '/ebnf.ebnf');
@@ -108,7 +108,14 @@ describe("parser", function() {
       }));
     });
 
-
+    context('special syntax', function() {
+      before(() => content = '? test ?');
+      it.only('has a special sequence of "test"', function() {
+        console.dir(result);
+        expect(result).to.have.deep.property('0.kind', 'special_sequence');
+        expect(result).to.have.deep.property('0.value', 'test');
+      });
+    })
     context('comments', function() {
       const elements = {
         '"a" (* x *)': [6, 1],

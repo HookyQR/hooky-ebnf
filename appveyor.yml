@@ -6,7 +6,6 @@ environment:
 install:
   - ps: Install-Product node $env:node_version
   - npm install
-  - npm install mocha -g
 
 platform:
   - x86
