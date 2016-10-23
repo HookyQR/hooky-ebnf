@@ -9,7 +9,7 @@
   special_sequence
   syntax_rule
   single_definition
-  syntax_term
+  syntactic_term
   syntactic_factor
   optional_sequence
   repeated_sequence
@@ -27,7 +27,7 @@ const validKind = [
   'special_sequence',
   'syntax_rule',
   'single_definition',
-  'syntax_term',
+  'syntactic_term',
   'syntactic_factor',
   'optional_sequence',
   'repeated_sequence',
@@ -36,46 +36,79 @@ const validKind = [
 
 class ParserBuilder {
   constructor(syntax, options) {
+    options = options || {};
     this.syntax = syntax;
     this.seen = new Set();
-    this.special = [];
-    this.parseSyntax(syntax);
+    this.special = new Set();
+    this._parseSyntax(syntax);
     this.expose = [];
+    this.methods = {};
     if (options.unexposed) {
       this.expose = this.seen.filter(element => options.unexposed.includes(element));
     }
     // make sure we have the methods needed
-    if (this.special.length) {
-      if (!options.special || options.special.length <= this.special.length)
-        throw new Error(`Not enough special elements to cover those found in the syntax: '${this.special.join(', ')}'`);
+    if (this.special.size) {
+      if (!options.special || options.special.length < this.special.size)
+        throw `Not enough special elements to cover those found in the syntax: (${this.special.size})
+    ${Array.from(this.special).join('\n    ')}`;
       this.special.forEach(name => {
-        if (!options.special.includes(name))
-          throw new Error(`No special element method provided for '${name}'`);
-        if (!(typeof options.special[name] === 'function'))
-          throw new Error(`Special element provided for '${name}' is not a function`);
+        if (!(name in options.special))
+          throw `No special element method provided for '${name}'`;
+        if (typeof options.special[name] !== 'function')
+          throw `Special element provided for '${name}' is not a function`;
       });
     }
-    this.special = options.special;
-    this.build();
+    this._special = options.special;
+    this._build();
   }
-  parseSyntax(syntax) {
+  _parseSyntax(syntax) {
     if (Array.isArray(syntax)) {
-      return syntax.forEach(element => this.parseSyntax(element));
+      return syntax.forEach(element => this._parseSyntax(element));
     }
     let k = syntax.kind;
     let n = syntax.name;
     let v = syntax.value;
     if (!k) return;
-    if (!validKind.includes(k)) throw new Error(`Invalid kind seen: "${k}"`);
+    if (!validKind.includes(k)) throw `Invalid kind seen: "${k}"`;
     if (k === 'syntax_rule') {
-      if (!n) throw new Error(`Syntax rules must have a name.`);
+      if (!n) throw `Syntax rules must have a name.`;
       this.seen.add(n);
     }
     if (k === 'special_sequence') return this.special.add(v);
     if (!v || typeof v === 'string' || v instanceof Buffer) return;
-    this.parseSyntax(v);
+    this._parseSyntax(v);
   }
-  build() {
-    
+  _build() {
+    //at the lowest, everything must be a 'syntax_rule'
+    let a;
+    let segments = {};
+    for (a in this.syntax) {
+      if (this.syntax[a].kind !== 'syntax_rule') throw "All base elements must be 'syntax_rule's.";
+      if (1) return;
+    }
+  }
+  _terminal_string_combine(element) {
+    const first = element.values[0];
+    if (element.values.all(r => r.value.length === 1)) {
+      element.values = element.values.sort((a, b) => (a.value[0] - b.value[0]));
+      element.test = `(${element.values.map(r=>r.test).join('||')})`;
+      element.consume = 1;
+    } else if (element.values.all(r => r.value.length === first.value.length)) {
+      element.values = element.values.sort((a, b) => (a.value - b.value));
+
+    }
+
+  }
+  _terminal_string(element) {
+    if (element.value.length === 1) {
+      element.test `c==${element.value[0]}`;
+      element.consume = element.value.length;
+    } else element.test = `d.equate(${element.value})`;
+  }
+  _single_definition() {}
+  static ensureNoLoop(data, parser) {
+
   }
 }
+
+module.exports = ParserBuilder;

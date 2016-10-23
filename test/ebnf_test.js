@@ -110,7 +110,7 @@ describe("ebnf parser", function() {
 
     context('special syntax', function() {
       before(() => content = '? test ?');
-      it.only('has a special sequence of "test"', function() {
+      it('has a special sequence of "test"', function() {
         console.dir(result);
         expect(result).to.have.deep.property('0.kind', 'special_sequence');
         expect(result).to.have.deep.property('0.value', 'test');
