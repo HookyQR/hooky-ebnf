@@ -8,7 +8,7 @@ const ParserBuilder = require('../parserBuilder');
 
 const d = (a, n) => console.log(require('util').inspect(a, { depth: n, colors: true }));
 
-describe("parser generator", function() {
+describe.only("parser generator", function() {
   let result;
   let input;
   let ebnf;
@@ -30,7 +30,6 @@ describe("parser generator", function() {
     });
     it("doesn't raise an exception", function() {
       expect(() => result = new ParserBuilder(input, options)).not.to.throw();
-      d(input[34], 5);
     });
     it("has a 'metaIdentifier' method", function() {
       result = new ParserBuilder(input, options);

@@ -84,8 +84,44 @@ class ParserBuilder {
     let segments = {};
     for (a in this.syntax) {
       if (this.syntax[a].kind !== 'syntax_rule') throw "All base elements must be 'syntax_rule's.";
-      if (1) return;
+      this._syntax_rule(this.syntax[a]);
     }
+    for (a in this.syntax) {
+      this._create_code(this.syntax[a]);
+    }
+  }
+  _create_code(syntax) {
+
+  }
+  _handle(element) {
+    switch (element.kind) {
+      // case 'definitions_list':
+      //   return this._definitions_list();
+      case 'terminal_string':
+        return false;
+      case 'single_definition':
+        return this._single_definition(element);
+      case 'repeated_sequence':
+        return false;
+      case 'meta_identifier':
+        return true;
+      case 'syntactic_term':
+        return false;
+      case 'optional_sequence':
+        return this._optional_sequence(element);
+      case 'special_sequence':
+        element.method = this.special[element.name];
+        return false;
+      default:
+        throw `Unknown kind ${element.kind}`;
+    }
+  }
+  _syntax_rule(parent) {
+    if (!Array.isArray(parent.value)) {
+      console.log("Non array at:", parent.name);
+      return;
+    }
+    return parent.value.map(child => this._handle(child)).some(result => result);
   }
   _terminal_string_combine(element) {
     const first = element.values[0];
@@ -95,17 +131,32 @@ class ParserBuilder {
       element.consume = 1;
     } else if (element.values.all(r => r.value.length === first.value.length)) {
       element.values = element.values.sort((a, b) => (a.value - b.value));
-
     }
-
   }
   _terminal_string(element) {
     if (element.value.length === 1) {
-      element.test `c==${element.value[0]}`;
+      element.test `c===${element.value[0]}`;
       element.consume = element.value.length;
-    } else element.test = `d.equate(${element.value})`;
+      element.method = `d=>d.peek===${element.value[0]}?d.next:false;`;
+    } else {
+      element.test = `d.equate(${element.value})`;
+      element.consume = element.value.length;
+      element.method = `d=>d.step(d.equate(${element.value}));`;
+    }
   }
-  _single_definition() {}
+  _single_definition(element) {
+    if (!Array.isArray(element.value)) throw `Single defn with non array value: ${element.value}`;
+    return element.value.map(child => this._handle(child)).some(result => result);
+  }
+  _definitions_list(element) {
+    if (!Array.isArray(element.value)) throw "Non array definitions list";
+    return element.value.map(child => this._handle(child)).some(result => result);
+  }
+  _optional_sequence(element) {
+    const metaSeen = this._definitions_list(element);
+
+    return metaSeen;
+  }
   static ensureNoLoop(data, parser) {
 
   }

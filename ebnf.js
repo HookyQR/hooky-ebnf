@@ -1,7 +1,6 @@
 'use strict';
 const Data = require('./data');
 
-
 function trim(dataBuffer) {
   let p = 0,
     c, start = 0;
